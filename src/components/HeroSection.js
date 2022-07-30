@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Button, Stack, Typography} from '@mui/material';
-
+import heroImage from '../assets/images/banner.png';
 
 
 const HeroSection = () => {
@@ -17,6 +17,7 @@ const HeroSection = () => {
         No pain, <br/> no gain
       </Typography>
       <Button href='#exercises' variant='contained' color='success'> More Exercises</Button>
+      <img src={heroImage} alt=''  className='hero-banner-img'/>
     </Box>
   )
 }
